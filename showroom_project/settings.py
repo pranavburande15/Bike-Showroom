@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-rh3(5ljqo-tk1054c(t0^63$dvj5ji=04p#e6p_rk#ul4o%)^n
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    ALLOWED_HOSTS = ['bike-showroom-5.onrender.com', '.onrender.com', '127.0.0.1', 'localhost']
+]
 
 
 # Application definition
