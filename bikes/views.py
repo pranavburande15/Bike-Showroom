@@ -15,7 +15,7 @@ def home(request):
     else:
         bikes=Bike.objects.all()
     
-    return render(request,'bikes/index.html',{'bike':bikes})
+    return render(request,'bikes/index.html',{'bikes':bikes})
 
 @login_required(login_url='login')
 def profile_view(request):
